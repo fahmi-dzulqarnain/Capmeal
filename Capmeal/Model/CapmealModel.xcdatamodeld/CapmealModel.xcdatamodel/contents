@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="17709" systemVersion="20D91" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="JournalEntity" representedClassName="JournalEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="id_meal" optional="YES" attributeType="String"/>
+        <attribute name="lagi_apa" optional="YES" attributeType="String"/>
+        <attribute name="perasaan" optional="YES" attributeType="String"/>
+        <attribute name="porsi" optional="YES" attributeType="Double" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="satuan" optional="YES" attributeType="String"/>
+        <attribute name="tanggal_jam" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="tipe" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="MealEntity" representedClassName="MealEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="deskripsi" optional="YES" attributeType="String"/>
+        <attribute name="gambar" optional="YES" attributeType="Binary"/>
+        <attribute name="id_meal" optional="YES" attributeType="String"/>
+        <attribute name="kalori" optional="YES" attributeType="Integer 32" defaultValueString="0.0" usesScalarValueType="YES"/>
+        <attribute name="karbohidrat" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="lemak" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="nama" optional="YES" attributeType="String"/>
+        <attribute name="protein" optional="YES" attributeType="Integer 32" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <elements>
+        <element name="JournalEntity" positionX="-63" positionY="-18" width="128" height="134"/>
+        <element name="MealEntity" positionX="-54" positionY="45" width="128" height="149"/>
+    </elements>
+</model>

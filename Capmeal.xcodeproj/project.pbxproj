@@ -13,6 +13,7 @@
 		44E101EB26A9A77600385419 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E101EA26A9A77600385419 /* Preview Assets.xcassets */; };
 		44E101F926A9ABB700385419 /* CoreDataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E101F826A9ABB700385419 /* CoreDataViewModel.swift */; };
 		44E101FD26A9ADC700385419 /* CapmealModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 44E101FB26A9ADC700385419 /* CapmealModel.xcdatamodeld */; };
+		EF584E8226AABCC3008D72EF /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF584E8126AABCC3008D72EF /* OnboardingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		44E101EC26A9A77600385419 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44E101F826A9ABB700385419 /* CoreDataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataViewModel.swift; sourceTree = "<group>"; };
 		44E101FC26A9ADC700385419 /* CapmealModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CapmealModel.xcdatamodel; sourceTree = "<group>"; };
+		EF584E8126AABCC3008D72EF /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -87,6 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				44E101E526A9A77500385419 /* ContentView.swift */,
+				EF584E8126AABCC3008D72EF /* OnboardingView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -171,6 +174,7 @@
 				44E101E626A9A77500385419 /* ContentView.swift in Sources */,
 				44E101FD26A9ADC700385419 /* CapmealModel.xcdatamodeld in Sources */,
 				44E101F926A9ABB700385419 /* CoreDataViewModel.swift in Sources */,
+				EF584E8226AABCC3008D72EF /* OnboardingView.swift in Sources */,
 				44E101E426A9A77500385419 /* CapmealApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

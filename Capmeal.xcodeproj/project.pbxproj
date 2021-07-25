@@ -11,6 +11,14 @@
 		1302396E26AADA60006FDD6F /* JournalEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1302396A26AADA60006FDD6F /* JournalEntity+CoreDataProperties.swift */; };
 		1302396F26AADA60006FDD6F /* MealEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1302396B26AADA60006FDD6F /* MealEntity+CoreDataClass.swift */; };
 		1302397026AADA60006FDD6F /* MealEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1302396C26AADA60006FDD6F /* MealEntity+CoreDataProperties.swift */; };
+		13A843DF26AD3E900093E3EF /* RoundedCourner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A843D926AD3E900093E3EF /* RoundedCourner.swift */; };
+		13A843E026AD3E900093E3EF /* JournalView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A843DA26AD3E900093E3EF /* JournalView.swift */; };
+		13A843E126AD3E900093E3EF /* SummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A843DB26AD3E900093E3EF /* SummaryView.swift */; };
+		13A843E226AD3E900093E3EF /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A843DC26AD3E900093E3EF /* Home.swift */; };
+		13A843E326AD3E900093E3EF /* JournalHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A843DD26AD3E900093E3EF /* JournalHeader.swift */; };
+		13A843E426AD3E900093E3EF /* ProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A843DE26AD3E900093E3EF /* ProgressBar.swift */; };
+		13A843E926AD3EAB0093E3EF /* ViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A843E726AD3EAB0093E3EF /* ViewRouter.swift */; };
+		13A843EC26AD3EBA0093E3EF /* Profile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 13A843EB26AD3EBA0093E3EF /* Profile.swift */; };
 		44E101E426A9A77500385419 /* CapmealApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E101E326A9A77500385419 /* CapmealApp.swift */; };
 		44E101E626A9A77500385419 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E101E526A9A77500385419 /* ContentView.swift */; };
 		44E101E826A9A77600385419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E101E726A9A77600385419 /* Assets.xcassets */; };
@@ -24,6 +32,14 @@
 		1302396A26AADA60006FDD6F /* JournalEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JournalEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		1302396B26AADA60006FDD6F /* MealEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MealEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
 		1302396C26AADA60006FDD6F /* MealEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MealEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		13A843D926AD3E900093E3EF /* RoundedCourner.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundedCourner.swift; sourceTree = "<group>"; };
+		13A843DA26AD3E900093E3EF /* JournalView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalView.swift; sourceTree = "<group>"; };
+		13A843DB26AD3E900093E3EF /* SummaryView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SummaryView.swift; sourceTree = "<group>"; };
+		13A843DC26AD3E900093E3EF /* Home.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		13A843DD26AD3E900093E3EF /* JournalHeader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JournalHeader.swift; sourceTree = "<group>"; };
+		13A843DE26AD3E900093E3EF /* ProgressBar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProgressBar.swift; sourceTree = "<group>"; };
+		13A843E726AD3EAB0093E3EF /* ViewRouter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewRouter.swift; sourceTree = "<group>"; };
+		13A843EB26AD3EBA0093E3EF /* Profile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Profile.swift; sourceTree = "<group>"; };
 		44E101E026A9A77500385419 /* Capmeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Capmeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E101E326A9A77500385419 /* CapmealApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapmealApp.swift; sourceTree = "<group>"; };
 		44E101E526A9A77500385419 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -45,6 +61,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		13A843D826AD3C020093E3EF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				13A843DC26AD3E900093E3EF /* Home.swift */,
+				13A843DD26AD3E900093E3EF /* JournalHeader.swift */,
+				13A843DA26AD3E900093E3EF /* JournalView.swift */,
+				13A843DE26AD3E900093E3EF /* ProgressBar.swift */,
+				13A843D926AD3E900093E3EF /* RoundedCourner.swift */,
+				13A843DB26AD3E900093E3EF /* SummaryView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		13A843E526AD3EA10093E3EF /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				13A843E726AD3EAB0093E3EF /* ViewRouter.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		13A843EA26AD3EAE0093E3EF /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				13A843EB26AD3EBA0093E3EF /* Profile.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
 		44E101D726A9A77500385419 = {
 			isa = PBXGroup;
 			children = (
@@ -98,6 +143,9 @@
 		44E101F426A9AAE500385419 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				13A843EA26AD3EAE0093E3EF /* Profile */,
+				13A843E526AD3EA10093E3EF /* Base */,
+				13A843D826AD3C020093E3EF /* Home */,
 				44E101E526A9A77500385419 /* ContentView.swift */,
 			);
 			path = View;
@@ -180,14 +228,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				13A843EC26AD3EBA0093E3EF /* Profile.swift in Sources */,
 				44E101E626A9A77500385419 /* ContentView.swift in Sources */,
 				1302396D26AADA60006FDD6F /* JournalEntity+CoreDataClass.swift in Sources */,
 				1302396E26AADA60006FDD6F /* JournalEntity+CoreDataProperties.swift in Sources */,
 				44E101FD26A9ADC700385419 /* CapmealModel.xcdatamodeld in Sources */,
 				44E101F926A9ABB700385419 /* CoreDataViewModel.swift in Sources */,
+				13A843DF26AD3E900093E3EF /* RoundedCourner.swift in Sources */,
+				13A843E926AD3EAB0093E3EF /* ViewRouter.swift in Sources */,
+				13A843E426AD3E900093E3EF /* ProgressBar.swift in Sources */,
+				13A843E026AD3E900093E3EF /* JournalView.swift in Sources */,
 				1302397026AADA60006FDD6F /* MealEntity+CoreDataProperties.swift in Sources */,
 				1302396F26AADA60006FDD6F /* MealEntity+CoreDataClass.swift in Sources */,
 				44E101E426A9A77500385419 /* CapmealApp.swift in Sources */,
+				13A843E226AD3E900093E3EF /* Home.swift in Sources */,
+				13A843E326AD3E900093E3EF /* JournalHeader.swift in Sources */,
+				13A843E126AD3E900093E3EF /* SummaryView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

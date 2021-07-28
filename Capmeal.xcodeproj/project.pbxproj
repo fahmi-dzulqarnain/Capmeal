@@ -7,10 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1302396D26AADA60006FDD6F /* JournalEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1302396926AADA60006FDD6F /* JournalEntity+CoreDataClass.swift */; };
-		1302396E26AADA60006FDD6F /* JournalEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1302396A26AADA60006FDD6F /* JournalEntity+CoreDataProperties.swift */; };
-		1302396F26AADA60006FDD6F /* MealEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1302396B26AADA60006FDD6F /* MealEntity+CoreDataClass.swift */; };
-		1302397026AADA60006FDD6F /* MealEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1302396C26AADA60006FDD6F /* MealEntity+CoreDataProperties.swift */; };
 		44E101E426A9A77500385419 /* CapmealApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E101E326A9A77500385419 /* CapmealApp.swift */; };
 		44E101E626A9A77500385419 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44E101E526A9A77500385419 /* ContentView.swift */; };
 		44E101E826A9A77600385419 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44E101E726A9A77600385419 /* Assets.xcassets */; };
@@ -20,10 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1302396926AADA60006FDD6F /* JournalEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JournalEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
-		1302396A26AADA60006FDD6F /* JournalEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JournalEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
-		1302396B26AADA60006FDD6F /* MealEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MealEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
-		1302396C26AADA60006FDD6F /* MealEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "MealEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		44E101E026A9A77500385419 /* Capmeal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Capmeal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		44E101E326A9A77500385419 /* CapmealApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapmealApp.swift; sourceTree = "<group>"; };
 		44E101E526A9A77500385419 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -48,10 +40,6 @@
 		44E101D726A9A77500385419 = {
 			isa = PBXGroup;
 			children = (
-				1302396926AADA60006FDD6F /* JournalEntity+CoreDataClass.swift */,
-				1302396A26AADA60006FDD6F /* JournalEntity+CoreDataProperties.swift */,
-				1302396B26AADA60006FDD6F /* MealEntity+CoreDataClass.swift */,
-				1302396C26AADA60006FDD6F /* MealEntity+CoreDataProperties.swift */,
 				44E101E226A9A77500385419 /* Capmeal */,
 				44E101E126A9A77500385419 /* Products */,
 			);
@@ -181,12 +169,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				44E101E626A9A77500385419 /* ContentView.swift in Sources */,
-				1302396D26AADA60006FDD6F /* JournalEntity+CoreDataClass.swift in Sources */,
-				1302396E26AADA60006FDD6F /* JournalEntity+CoreDataProperties.swift in Sources */,
 				44E101FD26A9ADC700385419 /* CapmealModel.xcdatamodeld in Sources */,
 				44E101F926A9ABB700385419 /* CoreDataViewModel.swift in Sources */,
-				1302397026AADA60006FDD6F /* MealEntity+CoreDataProperties.swift in Sources */,
-				1302396F26AADA60006FDD6F /* MealEntity+CoreDataClass.swift in Sources */,
 				44E101E426A9A77500385419 /* CapmealApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

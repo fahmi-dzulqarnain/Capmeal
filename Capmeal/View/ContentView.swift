@@ -11,6 +11,12 @@ struct ContentView: View {
     
     // ges, ges.. Ini contoh manggil CoreData ViewModel nya yak..
     // Jan lupa pakai @StateObject yak
+    
+    //@State onBoardingSetup untuk mengecek apa harus menyalakan onboarding atau gak
+    //@AppStorage untuk memeriksa user butuh onboarding sebagai pengguna awal atau tidak jika dia adalah pengguna lama
+    
+    @State private var onboardingSetup: Bool = false
+    @AppStorage("needsOnboarding") var needsOnboarding: Bool = true
     @StateObject var data = CoreDataViewModel()
     
     var body: some View {
@@ -36,5 +42,16 @@ struct JournalView: View {
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
         ContentView()
+    }
+}
+
+extension ContentView{
+    private var mainView : some View {
+        VStack{
+            Spacer()
+            .fullScreenCover(isPresented: $needsOnboarding){
+                OnboardingView()
+            }
+        }
     }
 }
